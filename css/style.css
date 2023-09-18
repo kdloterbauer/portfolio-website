@@ -1,0 +1,60 @@
+/*
+Colors Used: 
+Dark Green - #012623 - 1,38,35
+Mid Green - #02403A - 2,64,68
+Light Green - #085951 - 8,89,81
+Gold - #EAA742 - 234,167,66
+Grey - #DADADA -218,218,218
+*/
+
+/*font-family: 'Libre Baskerville', serif;*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #DADADA;
+    color: #012623;
+    font-size: 16px;
+    line-height: 1.8
+
+     }
+h1{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #DADADA;
+    color: #012623;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1
+}
+h2{
+    font-family: 'Libre Baskerville', serif;
+    background-color: #DADADA;
+    color: #012623;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1
+}
+h3{
+    font-family: 'Montserrat'; sans-serif;
+    background-color: #DADADA;
+    color: #012623;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1
+}
+a{
+    color: #085951 
+    text-decoration: none;
+}
+a: hover{
+    color: #EAA742
+    text-decoration: underline;
+}
+a: visited{
+    color:#012623 
+}
+a: active {
+    color: purple /*!!!*/
+}
+    
+
