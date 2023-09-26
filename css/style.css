@@ -10,52 +10,80 @@ Grey - #DADADA -218,218,218
 /*font-family: 'Libre Baskerville', serif;*/
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #DADADA;
-    color: #012623;
-    font-size: 16px;
-    line-height: 1.8
-
-     }
-h1{
-    font-family: 'Montserrat', sans-serif;
-    background-color: #DADADA;
-    color: #012623;
-    font-size: 30px;
-    font-weight: 600;
-    line-height: 1
-}
-h2{
-    font-family: 'Libre Baskerville', serif;
-    background-color: #DADADA;
-    color: #012623;
-    font-size: 20px;
-    font-weight: 400;
-    font-style: italic;
-    line-height: 1
-}
-h3{
-    font-family: 'Montserrat'; sans-serif;
-    background-color: #DADADA;
-    color: #012623;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 1
-}
-a{
-    color: #085951 
-    text-decoration: none;
-}
-a: hover,
-a: focus{
-    color: #EAA742
-    text-decoration: underline;
-}
-a: visited{
-    color:#012623 
-}
-a: active {
-    color: purple /*!!!*/
-}
-    
-
+    font-family : 'Montserrat', sans-serif;
+    background-color : #DADADA;
+    color : #012623;
+    font-size : 16px;
+    line-height : 1.8;
+    }
+    h1 {
+    font-family : 'Montserrat', sans-serif;
+    background-color : #DADADA;
+    color : #012623;
+    font-size : 30px;
+    font-weight : 600;
+    line-height : 1;
+    }
+    h2 {
+    font-family : 'Libre Baskerville', serif;
+    background-color : #DADADA;
+    color : #012623;
+    font-size : 20px;
+    font-weight : 400;
+    font-style : italic;
+    line-height : 1;
+    }
+    h3 {
+    background-color : #DADADA;
+    color : #012623;
+    font-size : 20px;
+    font-weight : bold;
+    line-height : 1;
+    }
+    a:hover, a:focus {
+    color : #EAA742;
+    text-decoration : underline;
+    }
+    a:visited {
+    color : #012623;
+    }
+    a:active {
+    color : purple;
+    }
+    img {
+    width : 100%;
+    }
+    .button {
+        display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+        background-color: #ff7f50;
+        color: #ffffff; /* needed to override the default link color */
+        font-weight: 400;
+        padding: 10px;
+        border-radius: 3px;
+        border-bottom: 2px solid #994c30; /* width of the border, type, color */
+        transition: 0.2s opacity;
+      }
+    .button:hover {
+    opacity : 0.8;
+    text-decoration : none;
+    }
+    .button.active {
+    display : inline-block;
+    background-color : #EAA742;
+    color : #012623;
+    font-weight : 400;
+    padding : 10px;
+    border-radius : 3px;
+    border-bottom : 2px solid #012623;
+    transition : opacity 0.2s;
+    }
+    .button.contact {
+        background-color: transparent;
+        color: #ff7f50;
+        text-transform: uppercase;
+        border: 2px solid #ff7f50;
+      }
+      .button.contact:hover {
+        background-color: #ff7f50;
+        color: #ffffff;
+      }
