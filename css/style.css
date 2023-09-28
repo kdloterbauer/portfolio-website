@@ -9,6 +9,9 @@ Grey - #DADADA -218,218,218
 
 /*font-family: 'Libre Baskerville', serif;*/
 
+*{
+    box-sizing: border-box;
+}
 body {
     font-family : 'Montserrat', sans-serif;
     background-color : #DADADA;
@@ -87,3 +90,17 @@ body {
         background-color: #ff7f50;
         color: #ffffff;
       }
+      header{
+        padding: 10px;
+        margin: 10px;
+      }
+      Good.Eyelogo.png{
+        height: 20px 
+        width: 20px
+      }
+
+      /* Layout Styling */
+      .container{
+        padding: 0 15px;
+      }
+      
